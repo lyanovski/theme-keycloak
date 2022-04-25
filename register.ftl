@@ -42,7 +42,7 @@
 
             <div class="form-group">
                 <div class="${properties.kcLabelWrapperClass!}">
-                    <label for="user.attributes.mobile" class="${properties.kcLabelClass!}">NIK</label>
+                    <label for="user.attributes.nik" class="${properties.kcLabelClass!}">NIK</label>
                 </div>
 
                 <div class="${properties.kcInputWrapperClass!}">
