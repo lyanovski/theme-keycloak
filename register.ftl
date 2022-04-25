@@ -40,8 +40,6 @@
                 </div>
             </div>
 
-            
-
             <div class="${properties.kcFormGroupClass!}">
                 <div class="${properties.kcLabelWrapperClass!}">
                     <label for="email" class="${properties.kcLabelClass!}">${msg("email")}</label>
