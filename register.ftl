@@ -41,14 +41,15 @@
             </div>
 
             <div class="${properties.kcFormGroupClass!}">
-                <div class="${properties.kcLabelWrapperClass!}">
-                    <label for="nik" class="${properties.kcLabelClass!}">${msg("nik")}</label>
-                </div>
-                <div class="${properties.kcInputWrapperClass!}">
-                    <input type="text" id="nik" class="${properties.kcInputClass!}" name="nik"
-                           value="${(register.formData.nik!'')}"
-                           aria-invalid="<#if messagesPerField.existsError('nik')>true</#if>"
-                    />
+                <div class="form-group">
+                    <div class="${properties.kcLabelWrapperClass!}">
+                        <label for="user.attributes.mobile" class="${properties.kcLabelClass!}">NIK</label>
+                    </div>
+
+                    <div class="${properties.kcInputWrapperClass!}">
+                        <input type="text" class="${properties.kcInputClass!}" id="user.attributes.nik" name="user.attributes.nik" value="${(register.formData['user.attributes.nik']!'')}"/>
+                    </div>
+                    </div>
 
                     <#if messagesPerField.existsError('nik')>
                         <span id="input-error-nik" class="${properties.kcInputErrorMessageClass!}" aria-live="polite">
