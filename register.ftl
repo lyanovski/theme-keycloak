@@ -40,7 +40,7 @@
                 </div>
             </div>
 
-            <div class="form-group">
+            <div class="${properties.kcFormGroupClass!}">
                 <div class="${properties.kcLabelWrapperClass!}">
                     <label for="user.attributes.nik" class="${properties.kcLabelClass!}">NIK</label>
                 </div>
