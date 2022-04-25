@@ -40,15 +40,7 @@
                 </div>
             </div>
 
-            <div class="${properties.kcFormGroupClass!}">
-                <div class="${properties.kcLabelWrapperClass!}">
-                    <label for="user.attributes.nik" class="${properties.kcLabelClass!}">NIK</label>
-                </div>
-
-                <div class="${properties.kcInputWrapperClass!}">
-                    <input type="text" class="${properties.kcInputClass!}" id="user.attributes.nik" name="user.attributes.nik" value="${(register.formData['user.attributes.nik']!'')}"/>
-                </div>
-            </div>
+            
 
             <div class="${properties.kcFormGroupClass!}">
                 <div class="${properties.kcLabelWrapperClass!}">
