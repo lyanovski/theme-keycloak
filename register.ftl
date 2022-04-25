@@ -40,22 +40,13 @@
                 </div>
             </div>
 
-            <div class="${properties.kcFormGroupClass!}">
-                <div class="form-group">
-                    <div class="${properties.kcLabelWrapperClass!}">
-                        <label for="user.attributes.mobile" class="${properties.kcLabelClass!}">NIK</label>
-                    </div>
+            <div class="form-group">
+                <div class="${properties.kcLabelWrapperClass!}">
+                    <label for="user.attributes.mobile" class="${properties.kcLabelClass!}">NIK</label>
+                </div>
 
-                    <div class="${properties.kcInputWrapperClass!}">
-                        <input type="text" class="${properties.kcInputClass!}" id="user.attributes.nik" name="user.attributes.nik" value="${(register.formData['user.attributes.nik']!'')}"/>
-                    </div>
-                    </div>
-
-                    <#if messagesPerField.existsError('nik')>
-                        <span id="input-error-nik" class="${properties.kcInputErrorMessageClass!}" aria-live="polite">
-                            ${kcSanitize(messagesPerField.get('nik'))?no_esc}
-                        </span>
-                    </#if>
+                <div class="${properties.kcInputWrapperClass!}">
+                    <input type="text" class="${properties.kcInputClass!}" id="user.attributes.nik" name="user.attributes.nik" value="${(register.formData['user.attributes.nik']!'')}"/>
                 </div>
             </div>
 
